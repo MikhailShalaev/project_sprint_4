@@ -1,4 +1,5 @@
 package TestData;
+
 public class Constants {
     public static final String TEST_URL = "https://qa-scooter.praktikum-services.ru";
 
