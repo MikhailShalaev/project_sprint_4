@@ -70,7 +70,7 @@ public class FaqTest {
     }
 
     @Test
-    public void isAnswerTextCorrect() {
+    public void isAnswerTextShownAndCorrect() {
         HomePage homePage = new HomePage(driver);
         homePage.clickQuestionByOrder(questionNumber);
         Assert.assertEquals(expectedAnswerText, homePage.getAnswerTextByOrder(answerText));
