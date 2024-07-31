@@ -25,7 +25,7 @@ public class FaqTest {
     }
 
     @Parameterized.Parameters
-    public static Object[][] getAnswerText() {
+    public static Object[][] testData() {
         return new Object[][] {
                 {
                         HomePage.button_question_1, HomePage.text_answer_1, Constants.EXP_TEXT_1
