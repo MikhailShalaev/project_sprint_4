@@ -1,4 +1,4 @@
-package TestData;
+package testdata;
 
 public class Constants {
     public static final String TEST_URL = "https://qa-scooter.praktikum-services.ru";
@@ -39,4 +39,6 @@ public class Constants {
     public static final String COMMENT1 = "Спасибо";
     public static final String COMMENT2 = "__________";
     public static final String COMMENT3 = "";
+
+    public static final String POPUP_EXP_TEXT = "Заказ оформлен";
 }
